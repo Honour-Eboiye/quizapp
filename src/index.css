@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+.success{
+  background-color: green;
+  color: white;
+}
+
+.failure{
+  background-color: red;
+  color: white;
+}
+
+.container{
+  @apply bg-indigo-600 flex flex-col justify-end mx-auto relative w-full max-w-[345px] shadow-xl p-5;
+}
+
+.largeText{
+  @apply text-2xl font-semibold;
+}
