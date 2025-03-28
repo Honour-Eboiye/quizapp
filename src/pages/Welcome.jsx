@@ -14,7 +14,7 @@ const Welcome = () => {
 
   return (
     <div className="py-7">
-      <div className="flex flex-col mx-auto relative w-full max-w-[345px] shadow bg-blue-500 p-6 h-[400px]">
+      <div className="flex flex-col mx-auto relative w-full max-w-[345px] shadow bg-blue-500 p-8 h-[400px]">
         {isLoading ? (
           <div className="w-[300px] h-[400px] flex justify-center items-center">
             <BounceLoader color="white" size={35} />

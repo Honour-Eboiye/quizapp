@@ -19,14 +19,14 @@ const Exit = () => {
 
   return (
     <div className="py-7">
-      <div className="flex flex-col mx-auto relative w-full max-w-[345px] shadow bg-blue-500 p-6 h-[400px]">
+      <div className="flex flex-col mx-auto relative w-full max-w-[345px] shadow bg-blue-500 p-8 h-[400px]">
         {isLoading ? (
           <div className="w-[300px] h-[400px] flex justify-center items-center">
             <BounceLoader color="white" size={35} />
           </div>
         ) : (
           <div className="text-center">
-            <h1 className="text-white text-2xl font-bold mb-6">You got {score} out of 30</h1>
+            <h1 className="text-white text-3xl font-semibold mb-6">You got {score} out of 30</h1>
             <button
               onClick={handleRestart}
               className="bg-yellow-400 text-blue-900 font-bold py-2 px-6 shadow-lg hover:bg-yellow-300 transition-all"
