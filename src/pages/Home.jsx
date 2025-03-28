@@ -5,7 +5,7 @@ import { BounceLoader } from 'react-spinners';
 import Exit from './Exit'
 
 const Home = () => {
-  const [number, setNumber] = useState(27);
+  const [number, setNumber] = useState(1);
   const [attempted, setAttempted] = useState(false);
   const [numberOfAttempt, setNumberOfAttempt] = useState(0);
   const [correctIndex, setCorrectIndex] = useState();
